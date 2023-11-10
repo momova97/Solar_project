@@ -1,212 +1,93 @@
+<!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-<title>Google Maps - gmplot</title>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization"></script>
-<script type="text/javascript">
-    function initialize() {
-        var map = new google.maps.Map(document.getElementById("map_canvas"), {
-            zoom: 17,
-            center: new google.maps.LatLng(42.271220, -71.084919)
-        });
-
-        new google.maps.Polyline({
-            clickable: false,
-            geodesic: true,
-            strokeColor: "#0000FF",
-            strokeOpacity: 1.000000,
-            strokeWeight: 3,
-            map: map,
-            path: [
-                new google.maps.LatLng(42.271188, -71.084907),
-                new google.maps.LatLng(42.271237, -71.084802),
-                new google.maps.LatLng(42.271252, -71.084821),
-                new google.maps.LatLng(42.271173, -71.084888),
-                new google.maps.LatLng(42.271188, -71.084907),
-            ]
-        });
-
-        new google.maps.Polyline({
-            clickable: false,
-            geodesic: true,
-            strokeColor: "#008000",
-            strokeOpacity: 1.000000,
-            strokeWeight: 3,
-            map: map,
-            path: [
-                new google.maps.LatLng(42.271188, -71.084907),
-                new google.maps.LatLng(42.271237, -71.084802),
-                new google.maps.LatLng(42.271217, -71.084794),
-                new google.maps.LatLng(42.271208, -71.084915),
-                new google.maps.LatLng(42.271188, -71.084907),
-            ]
-        });
-
-        new google.maps.Polyline({
-            clickable: false,
-            geodesic: true,
-            strokeColor: "#0000FF",
-            strokeOpacity: 1.000000,
-            strokeWeight: 3,
-            map: map,
-            path: [
-                new google.maps.LatLng(42.271228, -71.084929),
-                new google.maps.LatLng(42.271281, -71.084854),
-                new google.maps.LatLng(42.271292, -71.084880),
-                new google.maps.LatLng(42.271217, -71.084904),
-                new google.maps.LatLng(42.271228, -71.084929),
-            ]
-        });
-
-        new google.maps.Polyline({
-            clickable: false,
-            geodesic: true,
-            strokeColor: "#008000",
-            strokeOpacity: 1.000000,
-            strokeWeight: 3,
-            map: map,
-            path: [
-                new google.maps.LatLng(42.271228, -71.084929),
-                new google.maps.LatLng(42.271281, -71.084854),
-                new google.maps.LatLng(42.271261, -71.084842),
-                new google.maps.LatLng(42.271248, -71.084942),
-                new google.maps.LatLng(42.271228, -71.084929),
-            ]
-        });
-
-        new google.maps.Polyline({
-            clickable: false,
-            geodesic: true,
-            strokeColor: "#0000FF",
-            strokeOpacity: 1.000000,
-            strokeWeight: 3,
-            map: map,
-            path: [
-                new google.maps.LatLng(42.271234, -71.084873),
-                new google.maps.LatLng(42.271299, -71.084818),
-                new google.maps.LatLng(42.271305, -71.084843),
-                new google.maps.LatLng(42.271228, -71.084848),
-                new google.maps.LatLng(42.271234, -71.084873),
-            ]
-        });
-
-        new google.maps.Polyline({
-            clickable: false,
-            geodesic: true,
-            strokeColor: "#008000",
-            strokeOpacity: 1.000000,
-            strokeWeight: 3,
-            map: map,
-            path: [
-                new google.maps.LatLng(42.271234, -71.084873),
-                new google.maps.LatLng(42.271299, -71.084818),
-                new google.maps.LatLng(42.271285, -71.084801),
-                new google.maps.LatLng(42.271248, -71.084890),
-                new google.maps.LatLng(42.271234, -71.084873),
-            ]
-        });
-
-        new google.maps.Polyline({
-            clickable: false,
-            geodesic: true,
-            strokeColor: "#0000FF",
-            strokeOpacity: 1.000000,
-            strokeWeight: 3,
-            map: map,
-            path: [
-                new google.maps.LatLng(42.271270, -71.084936),
-                new google.maps.LatLng(42.271315, -71.084847),
-                new google.maps.LatLng(42.271328, -71.084865),
-                new google.maps.LatLng(42.271257, -71.084918),
-                new google.maps.LatLng(42.271270, -71.084936),
-            ]
-        });
-
-        new google.maps.Polyline({
-            clickable: false,
-            geodesic: true,
-            strokeColor: "#008000",
-            strokeOpacity: 1.000000,
-            strokeWeight: 3,
-            map: map,
-            path: [
-                new google.maps.LatLng(42.271270, -71.084936),
-                new google.maps.LatLng(42.271315, -71.084847),
-                new google.maps.LatLng(42.271298, -71.084839),
-                new google.maps.LatLng(42.271288, -71.084944),
-                new google.maps.LatLng(42.271270, -71.084936),
-            ]
-        });
-
-        new google.maps.Polyline({
-            clickable: false,
-            geodesic: true,
-            strokeColor: "#0000FF",
-            strokeOpacity: 1.000000,
-            strokeWeight: 3,
-            map: map,
-            path: [
-                new google.maps.LatLng(42.271189, -71.084957),
-                new google.maps.LatLng(42.271289, -71.084905),
-                new google.maps.LatLng(42.271291, -71.084914),
-                new google.maps.LatLng(42.271187, -71.084949),
-                new google.maps.LatLng(42.271189, -71.084957),
-            ]
-        });
-
-        new google.maps.Polyline({
-            clickable: false,
-            geodesic: true,
-            strokeColor: "#008000",
-            strokeOpacity: 1.000000,
-            strokeWeight: 3,
-            map: map,
-            path: [
-                new google.maps.LatLng(42.271189, -71.084957),
-                new google.maps.LatLng(42.271289, -71.084905),
-                new google.maps.LatLng(42.271286, -71.084897),
-                new google.maps.LatLng(42.271192, -71.084965),
-                new google.maps.LatLng(42.271189, -71.084957),
-            ]
-        });
-
-        new google.maps.Polyline({
-            clickable: false,
-            geodesic: true,
-            strokeColor: "#0000FF",
-            strokeOpacity: 1.000000,
-            strokeWeight: 3,
-            map: map,
-            path: [
-                new google.maps.LatLng(42.271210, -71.084915),
-                new google.maps.LatLng(42.271236, -71.084864),
-                new google.maps.LatLng(42.271244, -71.084877),
-                new google.maps.LatLng(42.271202, -71.084902),
-                new google.maps.LatLng(42.271210, -71.084915),
-            ]
-        });
-
-        new google.maps.Polyline({
-            clickable: false,
-            geodesic: true,
-            strokeColor: "#008000",
-            strokeOpacity: 1.000000,
-            strokeWeight: 3,
-            map: map,
-            path: [
-                new google.maps.LatLng(42.271210, -71.084915),
-                new google.maps.LatLng(42.271236, -71.084864),
-                new google.maps.LatLng(42.271223, -71.084859),
-                new google.maps.LatLng(42.271223, -71.084920),
-                new google.maps.LatLng(42.271210, -71.084915),
-            ]
-        });
-
-    }
-</script>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_73bcfff7662ad9e02bbaffd06f5583a9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
 </head>
-<body style="margin:0px; padding:0px;" onload="initialize()">
-    <div id="map_canvas" style="width: 100%; height: 100%;" />
+<body>
+    
+    
+            <div class="folium-map" id="map_73bcfff7662ad9e02bbaffd06f5583a9" ></div>
+        
 </body>
+<script>
+    
+    
+            var map_73bcfff7662ad9e02bbaffd06f5583a9 = L.map(
+                "map_73bcfff7662ad9e02bbaffd06f5583a9",
+                {
+                    center: [42.3298, -71.0806],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 18,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8e5bcc203a5f845fef3661c09962f293 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_73bcfff7662ad9e02bbaffd06f5583a9);
+        
+    
+            var polygon_9cdbf6ad239039b7627b6100c0572566 = L.polygon(
+                [[42.32985146036657, -71.08038566254086], [42.329772503096265, -71.08046189609199], [42.329836739588934, -71.08058273751175], [42.329915696858336, -71.08050650388304]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_73bcfff7662ad9e02bbaffd06f5583a9);
+        
+    
+            var polygon_a9e4b54c7ffe01cac99d25cfc51d26ee = L.polygon(
+                [[42.329851158050566, -71.08060608311361], [42.329912804965296, -71.08054452821573], [42.329862441922835, -71.08045291691744], [42.329800795007564, -71.08051447176621]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_73bcfff7662ad9e02bbaffd06f5583a9);
+        
+    
+            var polygon_a26528066844e13aabed2d9b67fae980 = L.polygon(
+                [[42.32978221801928, -71.08047953313338], [42.32980397658446, -71.08052040109708], [42.329848581972854, -71.08047726687283], [42.32982682340785, -71.08043639888025]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_73bcfff7662ad9e02bbaffd06f5583a9);
+        
+    
+            var polygon_9fd808218e1a413a223ea12b9ab7eb83 = L.polygon(
+                [[42.32986474785203, -71.08047674695797], [42.3298403344484, -71.08042898231486], [42.32981505214169, -71.08045245305613], [42.329839465545426, -71.08050021768013]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_73bcfff7662ad9e02bbaffd06f5583a9);
+        
+</script>
 </html>
